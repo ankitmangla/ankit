@@ -1,0 +1,40 @@
+Question 1
+The time tuple is the module that supplies classes for manipulating dates and times in both simple and complex ways.
+
+Question 2
+import datetime
+x = datetime.datetime.now()
+print(x)
+
+Question 3
+import datetime
+x = datetime.datetime.now()
+print(datetime.datetime.now().strftime("%b"))
+
+Question 4
+import datetime
+x = datetime.datetime.now()
+print(datetime.datetime.now().strftime("%d"))
+
+Question 5
+import datetime
+d = datetime.datetime(2012, 10, 22)
+print (d.year,d.month,d.day)
+
+Question 6
+
+
+Question 7
+n = 6
+def fact(n):
+    if n==1:
+        return 1
+    else:
+        return n*fact(n-1)
+print(fact(n))
+
+Question 9
+import os
+print(os.getcwd())
+print(os.environ)
+
